@@ -12,7 +12,7 @@
 
    * product_name (Name of product)
 
-   * department_name
+   * department_name  
 
    * price (cost to customer)
 

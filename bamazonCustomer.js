@@ -18,24 +18,24 @@ connection.connect(function (err, res) {
     }
 });
 
-// inquirer.prompt([
-//     {
-//         type: "input",
-//         message: "What product (ID#) would you like to buy?",
-//         name: "Department ID:",
+inquirer.prompt([
+    {
+        type: "input",
+        message: "What product (ID#) would you like to buy?",
+        name: "Department ID:",
 
-//     },
-//     {
-//         type: "input",
-//         message: "How many would you like to buy?",
-//         name: "Quantity",
+    },
+    {
+        type: "input",
+        message: "How many would you like to buy?",
+        name: "Quantity",
 
-//     },
+    },
 
-// ])
-//     .then(function (answers) {
-//         console.log('Bamazon Customer Loaded');
-//         console.log(answers);
-//     })
+])
+    .then(function (answers) {
+        console.log('Bamazon Customer Loaded');
+        console.log(answers);
+    })
 
 

@@ -24,7 +24,7 @@
 
 2. Navigate to the root directory in which the `bamazonCustomer.js` file is in. Then, run a `node bamazonCustomer.js` command into the terminal. 
     * The app will respond with two queries, the second dependent on the first. 
-    * It which item you would like to buy. The answer ot this question shouild be the item_id shown in the table. The numbers are incremented from 1. 
+    * It will ask which item you would like to buy. The answer to this question shouild be the item_id shown in the table. The numbers are incremented from 1. 
     * The second question asks how many you would like to purchase. Keep note of the available items in stock, as some items may be out of stock and you will not be able to purchase these. 
 
 

@@ -6,7 +6,7 @@
  
  2. In the CLI, through the use of Node.js, you will also receive a response to your order with the total sales as well as the item purchased to you in the terminal. On the back end, it connects to the SQL database and changes the data in the tables dynamically. 
 
-### Datbase Schema 
+### Database Schema 
  The products table has each of the following columns:
 
    * item_id (unique id for each product)
@@ -24,7 +24,7 @@
 
 2. Navigate to the root directory in which the `bamazonCustomer.js` file is in. Then, run a `node bamazonCustomer.js` command into the terminal. 
     * The app will respond with two queries, the second dependent on the first. 
-    * It will ask which item you would like to buy. The answer to this question shouild be the item_id shown in the table. The numbers are incremented from 1. 
+    * It will ask which item you would like to buy. The answer to this question should be the item_id shown in the table. The numbers are incremented from 1. 
     * The second question asks how many you would like to purchase. Keep note of the available items in stock, as some items may be out of stock and you will not be able to purchase these. 
 
 
